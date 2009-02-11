@@ -1,0 +1,47 @@
+body
+{
+ margin-left:auto;
+ margin-right:auto;
+ font-family:Helvetica;
+ width:900px;
+}
+
+#title
+{
+  font-weight:bold;
+  font-size: 3em;
+  text-align:center;
+}
+
+#subtitle
+{
+  font-size: 2em;
+  text-align:right;
+}
+
+#content
+{
+  margin-left:auto;
+  margin:right:auto;
+  width:600px;
+  border: 1px red solid;
+  position:absolute;
+  top:100px;
+}
+
+#links
+{
+  font-size:1em;
+  text-align:center;
+}
+
+dt
+{
+  font-weight:bold;
+  font-size:2em;
+}
+
+dd
+{
+  font-size:1.5em;
+}

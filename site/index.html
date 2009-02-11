@@ -1,0 +1,39 @@
+<html>
+
+<head>
+<script src="javascripts/prototype.js" type="text/javascript"></script>
+<script src="javascripts/scriptaculous.js" type="text/javascript"></script>
+<script>
+
+function fillAreaAbout(){
+   document.getElementById('content').innerHTML="<dl> <dt> Chris Katz </dt> <dd> Team Lead </dd> <dd> Documentation Czar </dd> <dd> Architect </dd> <dd> Deployment and Packaging Manager </dd> <dt> Ashish Datta </dt> <dd> Build Manager </dd> <dd>Test Manager</dd> <dd>Lead Coder</dd> <dt> Alissa Cooper</dt> <dd> Change Control Czar </dd> <dd> Lead Designer</dd> <dd>Web Guru </dd> </dl>";
+}
+
+function fillAreaFiles(){
+   document.getElementById('content').innerHTML= "<a href='../fixedppt.ppt'> Presentation 1 </a> <br/>  <a href='../190pres2.ppt'> Presentation 2 </a> <br/> <a href='../GanttChart.mpp'> Gantt Chart </a> <br/> <a href='../Programs.doc' > Requirements Outline </a>";
+
+}
+
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="Team3.css" />
+</head>
+
+
+<body>
+
+<div id='title'> University Photography Project</div>
+<div id='subtitle'> Tufts Comp190 Group 3 </div>
+
+<div id="content"> </div>
+
+<div id='links'>
+<span id='about' onclick="fillAreaAbout();$(content).switchOff();"> About Us </span>
+<span id='files' onclick="fillAreaFiles();$(content).switchOff();"> Files </span>
+</div>
+
+</body>
+
+
+</html>
